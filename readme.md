@@ -5,3 +5,4 @@ Welcome to CART Web Apps 2024 Showcase website repository. Students are building
 # Students
 
 **Fork** this repository and submit pull requests as you complete your work.
+
