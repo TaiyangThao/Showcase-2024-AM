@@ -1,0 +1,39 @@
+h2 {
+    text-align: start;
+}
+
+p {
+    text-align: start;
+}
+
+body {
+    background-color: #F8F8F0;
+}
+
+.navMENU {
+    background-color: #14183B;
+    border: 10px solid #14183B;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.navMENU1 {
+    background-color: #1418;
+    padding: 1em;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
