@@ -1,10 +1,17 @@
 h2 {
     text-align: start;
+    color: crimson;
 }
-
+h1{
+    text-align: center;
+    color: rgb(91, 20, 15);
+}
 p {
     text-align: start;
+    color: rgb(46, 35, 35);
+
 }
+
 
 body {
     background-color: #F8F8F0;
@@ -15,14 +22,11 @@ body {
     border: 10px solid #14183B;
     padding: 1em;
     text-align: center;
-    
+    height: 100px;
+    width: 100%;
+
 }
 
-.navMENU1 {
-    background-color: #1418;
-    padding: 1em;
-    text-align: center;
-}
 
 a {
     display: flex;
@@ -36,4 +40,10 @@ a {
 
 .alignright {
     float: right;
+}
+
+ .navMENU1{
+    background-color: #000000;
+    height: 500px;
+    width: 100%;
 }

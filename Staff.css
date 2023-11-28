@@ -1,0 +1,15 @@
+.navMENU {
+    background-color: #14183B;
+    border: 10px solid #14183B;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+h2:after {
+    text-align: left
+
+ 
+}
+
+
