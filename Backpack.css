@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-    text-align: start;
+    text-align: center;
     color: rgb(46, 35, 35);
     font-size: 20px;
     font-family: 'Playpen Sans', cursive;
@@ -37,8 +37,8 @@ a {
 body {
     background-color: #F8F8F0;
     margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 7%;
+    margin-left: 10%;
+    margin-right: 11.56%;
 }
 
 .navMENU {
@@ -49,7 +49,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-around;
-
+   
 }
 
 .MENU {
@@ -78,11 +78,15 @@ a {
 }
 
 
-.black {
+.black img {
     display: flex;
-    height: 250px;
-    width: 50%;
+    height: auto;
+    width: 25%;
+}
 
+.Blue {
+    display: flex;
+    flex-direction: row-reverse
 }
 
 .bio {
@@ -124,4 +128,15 @@ h3 {
     font-size: 50px;
     text-align: center;
     font-family: 'Playpen Sans', cursive;
+}
+.logo img{
+    width: 6%;
+    position: absolute;
+    top: 7px;
+    bottom: 7px;
+    
+}
+img{
+    height: auto;
+    width: 25%;
 }

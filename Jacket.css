@@ -1,11 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&display=swap" rel="stylesheet") h2 {
+    text-align: center;
+    color: rgb(34, 24, 26);
+    font-size: 30px;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(91, 20, 15);
+    font-family: 'Playpen Sans', cursive;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    color: rgb(46, 35, 35);
+    font-size: 20px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(34, 24, 26);
+    font-size: 30px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+a {
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #F8F8F0;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 11.56%;
+}
+
 .navMENU {
     background-color: #14183B;
     border: 10px solid #14183B;
     padding: 1em;
-    text-align: center;
     height: 40px;
     width: 100%;
-
+    display: flex;
+    justify-content: space-around;
+   
 }
 
 .MENU {
@@ -16,4 +60,83 @@
     width: 101.59%;
     display: flex;
     justify-content: space-around
+}
+
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+
+.black img {
+    display: flex;
+    height: auto;
+    width: 25%;
+}
+
+.Blue {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.bio {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+div {}
+
+h3 {
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 25px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #df2d2d75;
+    color: #0e0707;
+    padding: 15px 25px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+}
+.logo img{
+    width: 6%;
+    position: absolute;
+    top: 7px;
+    bottom: 7px;
+    
+}
+img{
+    height: auto;
+    width: 25%;
 }

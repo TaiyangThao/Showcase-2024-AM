@@ -17,3 +17,17 @@
     display: flex;
     justify-content: space-around
 }
+
+.tool {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+
+.logo img{
+    width: 6%;
+    position: absolute;
+    top: 7px;
+    bottom: 7px;
+    
+}
