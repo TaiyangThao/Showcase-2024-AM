@@ -25,3 +25,34 @@
     bottom: 7px;
     
 }
+nav>a {
+    background-color: dodgerblue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    transition-property: color, background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    margin-left: 1rem;
+    float: right;
+}
+
+nav>a {
+    background-color: dodgerblue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    transition-property: color, background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    margin-left: 1rem;
+    float: right;
+
+}
+
+nav>a:hover {
+    color: yellow;
+    background-color: rgb(26, 118, 209);
+}

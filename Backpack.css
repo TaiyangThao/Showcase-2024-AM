@@ -62,6 +62,7 @@ body {
     width: 100%;
     display: flex;
     color: white;
+    float: left;
 }
 
 
@@ -99,7 +100,7 @@ a {
 
 
 h3 {
-    text-align: center;
+    text-align: left;
     font-family: 'Playpen Sans', cursive;
     font-size: 25px;
 }
@@ -110,6 +111,7 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3rem;
     width: 60%;
 }
 
@@ -143,4 +145,43 @@ h3 {
 img {
     height: auto;
     width: 25%;
+}
+
+nav>a {
+    background-color: #B2A696;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    transition-property: color, background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    float: right;
+
+}
+
+nav>a:hover {
+    color: yellow;
+    background-color: rgb(26, 118, 209);
+}
+
+#products {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin-bottom: 2rem;
+}
+
+.product {
+    background-color: #F8F8F0;
+    padding: 50px;
+    width: 40%;
+    position: relative;
+    text-align: left;
+    float: right;
+
 }

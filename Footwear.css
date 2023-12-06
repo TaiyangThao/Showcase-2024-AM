@@ -88,7 +88,7 @@ a {
 
 .Blue {
     display: flex;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
 }
 
 .bio {
@@ -109,6 +109,7 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3rem;
     width: 60%;
 }
 
@@ -150,20 +151,25 @@ h3 {
 }
 
 .product {
-    border: solid 3px black;
-    background-color: white;
+    background-color: #F8F8F0;
     padding: 50px;
-    transition: box-shadow 500ms ease;
+    width: 40%;
     position: relative;
+    text-align: left;
+    float: right;
+
 }
+
 
 .product:hover,
 .cartItem:hover {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
+
+
 .prodImage {
-    width: 5in;
+    width: 3in;
     height: auto;
     aspect-ratio: 3 / 2;
     object-fit: cover;
@@ -251,33 +257,6 @@ h3 {
 
 .cartTotal {
     text-align: right;
-}
-
-header,
-h2 {
-    max-width: 1280px;
-    margin: 1rem auto 0;
-}
-
-
-
-nav>a {
-    background-color: dodgerblue;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    color: white;
-    text-decoration: none;
-    transition-property: color, background-color;
-    transition-duration: 500ms;
-    transition-timing-function: ease;
-    margin-left: 1rem;
-    float: right;
-
-}
-
-nav>a:hover {
-    color: yellow;
-    background-color: rgb(26, 118, 209);
 }
 
 #cartItemCount::before {
