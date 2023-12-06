@@ -2,9 +2,11 @@
     background-color: #14183B;
     border: 10px solid #14183B;
     padding: 1em;
-    text-align: center;
-    height: 40px;
-    width: 100%;
+    height: auto;
+    width: 99.8%;
+    display: flex;
+    justify-content: space-around;
+    float: center;
 
 }
 
@@ -18,12 +20,12 @@
     justify-content: space-around
 }
 
-.logo img{
-    width: 6%;
+.logo img {
+    width: 10%;
     position: absolute;
-    top: 7px;
-    bottom: 7px;
-    
+    top: 25px;
+    left: 220px;
+
 }
 nav>a {
     background-color: dodgerblue;
