@@ -150,11 +150,12 @@ h3 {
     font-family: 'Playpen Sans', cursive;
 }
 
-.logo img {
-    width: 10%;
+.logo {
+    width: 8%;
+    height: auto;
     position: absolute;
-    top: 25px;
-    left: 220px;
+    top: 15px;
+    left: 80px;
 
 }
 
@@ -207,7 +208,7 @@ h3 {
 #emptyCart {
     display: block;
     float: right;
-    background-color: dodgerblue;
+    background-color: #f0b96d7c;
     color: white;
     padding: 1em;
     text-decoration: none;
@@ -217,7 +218,7 @@ h3 {
 
 .prodBtn:hover {
     background-color: black;
-    color: yellow;
+    color: #f0b96d7c;
 }
 
 .removeBtn,
@@ -260,12 +261,7 @@ h3 {
     flex-shrink: 1;
 }
 
-.cartItem .cartItemInfo {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 
 .cartItem .cartItemPricing {
     display: flex;

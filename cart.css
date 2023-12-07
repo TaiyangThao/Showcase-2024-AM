@@ -188,7 +188,6 @@ h2 {
 a {
     font-family: 'Playpen Sans', cursive;
     
-    color: white;
 }
 
 
@@ -225,15 +224,16 @@ body {
 
 nav>a {
     background-color: #B2A696;
-    border-radius: 0.5rem;
-    padding: 1rem;
+    border-radius: 5rem;
+    padding: 2.5rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition-property: color, background-color;
     transition-duration: 500ms;
     transition-timing-function: ease;
-    margin-left: 1rem;
+    margin-left: 0.55rem;
     float: right;
+
 
 }
 
@@ -320,11 +320,12 @@ h3 {
     font-family: 'Playpen Sans', cursive;
 }
 
-.logo img {
-    width: 6%;
+.logo {
+    width: 8%;
+    height: auto;
     position: absolute;
-    top: 7px;
-    bottom: 10px;
+    top: 15px;
+    left: 80px;
 
 }
 
@@ -423,8 +424,8 @@ h3 {
 }
 
 .cartItem {
-    border: solid 1px black;
-    background-color: white;
+    border: solid 1px rgb(183, 177, 177);
+    background-color: #f0b96d4e;
     padding: 0.5rem;
     transition: box-shadow 500ms ease;
     display: flex;
