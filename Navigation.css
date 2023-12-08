@@ -118,7 +118,7 @@ a {
 h3 {
     text-align: center;
     font-family: 'Playpen Sans', cursive;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .image-container {
@@ -171,11 +171,12 @@ h3 {
 
 .product {
     background-color: #F8F8F0;
-    padding: 50px;
+    padding: 98px;
     width: 40%;
     position: relative;
     text-align: center;
     float: right;
+    
 
 }
 
@@ -188,8 +189,8 @@ h3 {
 
 
 .prodImage {
-    width: 50%;
-    height: 50%;
+    width: 5in;
+    height: 4in;
     aspect-ratio: 3 / 2;
     object-fit: cover;
 }
@@ -208,7 +209,7 @@ h3 {
 #emptyCart {
     display: block;
     float: right;
-    background-color: #f0b96d7c;
+    background-color: #B2A696;
     color: white;
     padding: 1em;
     text-decoration: none;
@@ -293,4 +294,126 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+ul{
+    color: #F8F8F0;
+
+}
+a{
+    color: #F8F8F0;
+}
+
+@media only screen and (max-width:768px) {
+    #products {
+        padding: 1em;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 50px;
+        
+    }
+
+    .navMENU, .MENU, p, h1, h2, h3 {
+        font-size: 10px;
+    }
+
+    .MENU {
+        width: 440px;
+    }
+
+    .prodImage  {
+        width: 2in;
+        height: 2in;
+    }
+
+    nav>a {
+        background-color: #B2A696;
+        border-radius: 5rem;
+        padding: 0.5rem;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        transition-property: color, background-color;
+        transition-duration: 500ms;
+        transition-timing-function: ease;
+        margin-left: 0.55rem;
+        float: right;
+        font-size: 10px;
+    
+    }
+    
+    nav>a:hover {
+        color: rgb(0, 0, 0);
+        background-color: rgb(254, 254, 255);
+    }
+    
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+    
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #df2d2d75;
+        color: #0e0707;
+        padding: 15px 25px;
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Playpen Sans', cursive;
+    }
+    
+    .contact {
+        height: 200px;
+        width: 390px;
+    }
+
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+        width: 100%;
+    }
+    
+    .image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .prodPrice::before {
+        content: "$ ";
+    }
+    
+    .prodPrice {
+        display: inline-block;
+        margin-top: 0.5em;
+    }
+    
+    .prodBtn,
+    .removeBtn,
+    #emptyCart {
+        display: block;
+        float: right;
+        background-color: #B2A696;
+        color: white;
+        padding: 1rem;
+        text-decoration: none;
+        border-radius: 0.5em;
+        transition: background-color 500ms ease;
+        font-size: 10px;
+    }
+    
+    .prodBtn:hover {
+        background-color: black;
+        color: #f0b96d7c;
+    }
+span{
+    font-size: 12px;
+}
+
 }
