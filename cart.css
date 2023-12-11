@@ -218,6 +218,7 @@ h3 {
     transition: background-color 500ms ease;
 }
 
+
 .prodBtn:hover {
     background-color: black;
     color: yellow;
