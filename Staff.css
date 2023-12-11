@@ -1,14 +1,14 @@
 h1 {
     text-align: center;
     color: rgb(91, 20, 15);
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     font-size: 50px;
 }
 
 p {
     text-align: center;
     font-size: 20px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 
@@ -16,11 +16,11 @@ h2 {
     text-align: center;
     color: rgb(34, 24, 26);
     font-size: 30px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 a {
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     text-align: center;
 }
 
@@ -102,7 +102,7 @@ a {
 
 h3 {
     text-align: center;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     font-size: 40px;
 }
 
@@ -119,7 +119,7 @@ h3 {
     padding: 15px 25px;
     font-size: 50px;
     text-align: center;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 .logo {
@@ -299,7 +299,14 @@ a{
     }
 
     .MENU {
-        width: 420px;
+        width: 99.8%;
+        height: auto;
+    padding: 1em;
+    height: auto;
+    width: 99.8%;
+    display: flex;
+    justify-content: space-around;
+        
     }
 
     .prodImage  {
@@ -330,6 +337,14 @@ a{
     .logo {
         width: 100px;
         height: auto;
+        width: 9%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 80px;
+           
+        
+
     }
     
     .overlay-text {
@@ -342,12 +357,12 @@ a{
         padding: 15px 25px;
         font-size: 25px;
         text-align: center;
-        font-family: 'Playpen Sans', cursive;
+        font-family: 'Kalnia', serif;
     }
     
     .contact {
         height: 200px;
-        width: 390px;
+
     }
 
 

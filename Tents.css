@@ -1,14 +1,14 @@
 h1 {
     text-align: center;
     color: rgb(91, 20, 15);
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     font-size: 50px;
 }
 
 p {
     text-align: center;
     font-size: 20px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 
@@ -16,11 +16,12 @@ h2 {
     text-align: center;
     color: rgb(34, 24, 26);
     font-size: 30px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 a {
-    font-family: 'Playpen Sans', cursive;
+   
+    font-family: 'Kalnia', serif;
     text-align: center;
 }
 
@@ -51,6 +52,13 @@ body {
     width: 101.59%;
     display: flex;
     justify-content: space-around;
+    
+}
+
+
+ul{
+    color: #F8F8F0;
+
 }
 nav>a {
     background-color: #B2A696;
@@ -87,6 +95,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    color: #F8F8F0;
 }
 
 .alignleft {
@@ -117,7 +126,7 @@ a {
 
 h3 {
     text-align: center;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     font-size: 40px;
 }
 
@@ -147,7 +156,7 @@ h3 {
     padding: 15px 25px;
     font-size: 50px;
     text-align: center;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 .logo {
@@ -189,8 +198,8 @@ h3 {
 
 
 .prodImage {
-    width: 50%;
-    height: 50%;
+    width: 4in;
+    height: 3in;
     aspect-ratio: 3 / 2;
     object-fit: cover;
 }
@@ -282,27 +291,6 @@ h3 {
     content: ")";
 }
 
-@media only screen and (max-width:640px) {
-    #products {
-        padding: 1em;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-.cartItem .cartItemInfo {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-ul{
-    color: #F8F8F0;
-
-}
-a{
-    color: #F8F8F0;
-}
-
 @media only screen and (max-width:768px) {
     #products {
         padding: 1em;
@@ -316,7 +304,7 @@ a{
         font-size: 10px;
     }
 
-    .MENU {
+    .MENU, .navMENU {
         width: 420px;
     }
 
@@ -360,7 +348,7 @@ a{
         padding: 15px 25px;
         font-size: 25px;
         text-align: center;
-        font-family: 'Playpen Sans', cursive;
+        font-family: 'Kalnia', serif;
     }
     
     .contact {
@@ -416,4 +404,12 @@ span{
     font-size: 12px;
 }
 
+}
+
+
+.cartItem .cartItemInfo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

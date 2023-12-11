@@ -1,0 +1,97 @@
+<div class="image-container">
+    <img src="images/gnjnmgmnm.jpg" alt="BACKPACK" class="center">
+    <div class="overlay-text">Jacket</div>
+</div>
+
+<section class="products">
+    
+        <div class="product">
+            <img   src="images/rfgr.png" alt="green jacket" class="prodImage">
+            <h3 class="prodName">Green Windbreaker</h3>
+            <p class="prodDesc">This windbreaker is made with top-quality material. This will be great for a windy day at camp with extra warm protection under
+                the windbreaker. It will come with 2 extra buttons in-case you break some.</p>
+            <span class="prodPrice">49.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+        </div>
+        <div class="product">
+            <img   src="images/fqfqf.png" alt="Yellow jacket" class="prodImage">
+            <h3 class="prodName">Yellow Windbreaker</h3>
+            <p class="prodDesc">This jacket, whose color makes it possible to
+                quickly spot a man overboard, protects the sailor
+                and keeps you warm and dry. Not water resistant at
+                all.</p>
+            <span class="prodPrice">49.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+        </div>
+    
+        <div class="product">
+            <img   src="images/pink.png" alt="Pink jacket" class="prodImage">
+            <h3 class="prodName">Pink Windbreaker</h3>
+            <p class="prodDesc">This jacket is made of synthetic fibers, the fibers
+                keeps you warm and prevents water for getting into
+                the jacket.</p>
+            <span class="prodPrice">49.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+        </div>
+        <div class="product">
+            <img   src="images/vhh.png" alt="Brown jacket" class="prodImage">
+            <h3 class="prodName">Brown Winter Jacket</h3>
+            <p class="prodDesc">This jacket are filled with down insulation or synthetic fibers, both of which can provide a high level of
+                warmth depending on how well they are made and the quality of the synthetic fibers, But they are not water
+                resistant.</p>
+            <span class="prodPrice">49.99</span><a href="" class="addToCart prodBtn">Add to Cart</a>
+        </div>
+
+</section>
+
+
+
+display: block;
+float: right;
+background-color: #B2A696;
+color: white;
+padding: 1rem;
+text-decoration: none;
+border-radius: 0.5em;
+transition: background-color 500ms ease;
+font-size: 10px;
+
+
+
+.prodBtn,
+.removeBtn,
+#emptyCart {
+    display: block;
+    float: right;
+    background-color: dodgerblue;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 500ms ease;
+}
+
+.prodBtn:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.removeBtn,
+#emptyCart {
+    background-color: #B2A696;
+}
+
+.removeBtn:hover,
+#emptyCart:hover {
+    background-color: rgb(1, 1, 1);
+}
+
+#emptyCart {
+    margin-top: 0.5em;
+}
+
+#cart {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: 25vh;
+    gap: 1em;
+    margin-bottom: 2rem;
+}

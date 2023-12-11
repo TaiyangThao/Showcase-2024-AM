@@ -1,14 +1,14 @@
 h1 {
     text-align: center;
     color: rgb(91, 20, 15);
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     font-size: 50px;
 }
 
 p {
     text-align: center;
     font-size: 20px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 
@@ -16,11 +16,11 @@ h2 {
     text-align: center;
     color: rgb(34, 24, 26);
     font-size: 30px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 a {
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     text-align: center;
 }
 
@@ -28,12 +28,13 @@ a {
 
 body {
     background-color: #F8F8F0;
+  
    
 }
 
 .navMENU {
     background-color: #14183B;
-    border: 10px solid #14183B;
+    border: 12px solid #14183B;
     padding: 1em;
     height: auto;
     width: 99.8%;
@@ -117,7 +118,7 @@ a {
 
 h3 {
     text-align: center;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
     font-size: 40px;
 }
 
@@ -147,15 +148,15 @@ h3 {
     padding: 15px 25px;
     font-size: 50px;
     text-align: center;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kalnia', serif;
 }
 
 .logo {
-    width: 8%;
+    width: 7%;
     height: auto;
     position: absolute;
     top: 15px;
-    left: 80px;
+    left: 150px;
 
 }
 
@@ -208,6 +209,9 @@ h3 {
 .removeBtn,
 #emptyCart {
     display: block;
+    position: absolute;
+ 
+  right: 47.56%;
     float: right;
     background-color: #B2A696;
     color: white;
@@ -215,11 +219,13 @@ h3 {
     text-decoration: none;
     border-radius: 0.5em;
     transition: background-color 500ms ease;
+   
 }
 
 .prodBtn:hover {
     background-color: black;
     color: #f0b96d7c;
+   
 }
 
 .removeBtn,
@@ -329,7 +335,14 @@ a{
     }
 
     .MENU {
-        width: 420px;
+        width: 99.8%;
+        height: auto;
+    padding: 1em;
+    height: auto;
+    width: 99.8%;
+    display: flex;
+    justify-content: space-around;
+        
     }
 
     .prodImage  {
@@ -360,6 +373,14 @@ a{
     .logo {
         width: 100px;
         height: auto;
+        width: 9%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 80px;
+           
+        
+
     }
     
     .overlay-text {
@@ -372,12 +393,12 @@ a{
         padding: 15px 25px;
         font-size: 25px;
         text-align: center;
-        font-family: 'Playpen Sans', cursive;
+        font-family: 'Kalnia', serif;
     }
     
     .contact {
         height: 200px;
-        width: 390px;
+
     }
 
 
